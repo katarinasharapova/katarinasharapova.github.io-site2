@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 1400px;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display:inline-block;
+}
+header{
+	width: 100%;
+	background-color: #fff;
+
+}
+main{
+	width: 100%;
+	background-color: #1c1e23;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.header-container{
+	width: 83.6%;
+	margin: 0 auto;
+
+}
+.main-container{
+	width: 69.64%;
+	margin: 0 auto;
+}
+.row-upper,
+.row-lower{
+	width: 83.33%;
+	float:left;
+	padding:35px 0;
+	z-index:9999;
+}
+.row-lower{
+	padding:25px 0;
+}
+.logo{
+	width: 9.43%;
+	display:block;
+	float:left;
+}
+.navigation{
+	width: 90.57%;
+	float:left;
+	font-size:14px;
+	font-weight: bold;
+	color:#343e5c;
+	text-align: center;
+}
+.navigation_pages li{
+	padding-right: 35px;
+}
+.info,
+.sidebar-lower,
+.sidebar-upper,
+.row-lower_support{
+	font-size:11px;
+	font-weight: bold;
+	color: #b9bed1;
+}
+.info,
+.row-lower_support{
+	font-size:14px;
+	float:left;
+}
+.info_menu li{
+	padding-right: 25px;
+}
+.info_menu li:hover{
+	color:#666e84;
+}
+.row-lower_support{
+	display: block;
+	float:right;
+	margin-right: 30px;
+}
+
+.sidebar-upper, 
+.sidebar-lower{
+	float:left;
+}
+.sidebar-upper{
+	width: 9.83%;
+	padding:35px 0;
+	color:#343e5c;
+}
+.sidebar-upper li{
+	padding: 0 3px;
+}
+.sidebar-upper_basket{
+	display:block;
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	background-color: #e3e8f0;
+	color:#343e5c;
+	text-align: center;
+	line-height: 1.8;
+}
+.header-container_button{
+	width: 6.84%;
+	height: 30px;
+	border-radius:25px;
+	box-shadow:none;
+	border:1px solid #b9bed1;
+	background-color: #fff;
+	color:#343e5c;
+	cursor:pointer;
+	margin:35px 0;
+	float:right;
+}
+.sidebar-lower{
+	width: 16.67%;
+	padding:25px 0;
+	font-size:14px;
+	border-left:2px solid #f0f2f7;
+	border-right: 2px solid #f0f2f7;
+}
+.sidebar-lower li{
+	padding-left: 25px;
+}
+.content{
+	width: 50%;
+	float:left;
+	color: #fff;
+	padding-top:100px;
+}
+.content_caption{
+	font-size: 42px;
+}
+.content_text{
+	font-size: 16px;
+	line-height: 2;
+}
+.product{
+	width: 36%;
+	float:right;
+	overflow: hidden;
+}
+.product_photo{
+	margin-top: -50px;
+}
+.content_button{
+	width: 163px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #2754eb;
+	border:none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-top: 65px;
+}
+
